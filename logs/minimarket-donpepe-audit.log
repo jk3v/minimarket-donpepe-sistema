@@ -1,0 +1,28 @@
+2026-10-31 01:09:57.617 [main] INFO  SecurityService - Autenticacion exitosa para usuario=admin con rol=ADMINISTRADOR
+2026-10-31 01:09:57.641 [main] WARN  SecurityService - Contrasena incorrecta para usuario cajero_ana. Intento 1/3
+2026-10-31 01:09:57.669 [main] WARN  SecurityService - Contrasena incorrecta para usuario cajero_ana. Intento 2/3
+2026-10-31 01:09:57.689 [main] ERROR SecurityService - ALERTA DE SEGURIDAD: Usuario cajero_ana bloqueado tras 3 intentos fallidos
+2026-10-31 01:09:57.691 [main] ERROR SecurityService - Acceso denegado: Cuenta bloqueada por seguridad para el usuario cajero_ana
+2026-10-31 01:09:57.945 [main] INFO  ArqueoCajaService - Turno de Caja #1 abierto por admin con fondo inicial S/. 100.0
+2026-10-31 01:09:57.962 [main] INFO  InventarioPepsService - Descuento PEPS ejecutado: Lote=LOT-2026-Y01 Tomado=2 Restante=12
+2026-10-31 01:09:57.964 [main] INFO  InventarioPepsService - Descuento PEPS ejecutado: Lote=LOT-2026-A08 Tomado=1 Restante=31
+2026-10-31 01:09:57.970 [main] INFO  VentaPosService - Venta Transaccional Exitosa: Comprobante=B001-000001 Total=S/.21.8 Efectivo=S/.11.8 YapePlin=S/.10.0 Fiado=S/.0.0 Vuelto=S/.3.2
+2026-10-31 01:09:57.999 [main] INFO  ArqueoCajaService - Turno de Caja #1 abierto por admin con fondo inicial S/. 100.0
+2026-10-31 01:09:58.006 [main] WARN  CreditoVecinalService - RF-08 Bloqueo de Tope de Credito: DNI=****9384 DeudaActual=S/.112.0 IntentoFiado=S/.15.0 Limite=S/.120.0
+2026-10-31 01:09:58.013 [main] INFO  CreditoVecinalService - Amortizacion registrada (RF-09): DNI=****9384 Abono=S/.50.0 SaldoAnterior=S/.112.0 SaldoRestante=S/.62.0
+2026-10-31 01:09:58.015 [main] INFO  CreditoVecinalService - Cargo de fiado vecinal autorizado: DNI=****9384 Monto=S/.15.0 NuevoSaldoDeudor=S/.77.0
+2026-10-31 01:09:58.043 [main] WARN  InventarioPepsService - MERMA REGISTRADA (RF-10): Lote=LOT-2026-Q04 Producto='Queso Edam Bonle Tajadas 250g' Cant=2 Perdida=S/.14.4 Motivo='Empaque danado en refrigeradora'
+2026-10-31 01:09:58.068 [main] INFO  ArqueoCajaService - Turno de Caja #1 abierto por admin con fondo inicial S/. 150.0
+2026-10-31 01:09:58.072 [main] WARN  ArqueoCajaService - RF-11 Alerta de Descuadre: Esperado=S/.150.0 Contado=S/.140.0 Diferencia=S/.-10.0 sin justificacion
+2026-10-31 01:09:58.085 [main] INFO  SqliteDataStore - Respaldo local automatico generado exitosamente en: /tmp/minimarket-donpepe-system/backups_sqlite/minimarket_donpepe_backup_20261031_010958.db.zip
+2026-10-31 01:09:58.090 [main] INFO  ArqueoCajaService - Cierre de Turno #1 completado (Informe Z emitido). Diferencia=S/.-10.0 Backup=/tmp/minimarket-donpepe-system/backups_sqlite/minimarket_donpepe_backup_20261031_010958.db.zip
+2026-10-31 01:09:58.142 [main] INFO  ExcelReportExporterService - Reporte Excel (.xlsx) generado con Apache POI en: /tmp/minimarket-donpepe-system/target/test_reporte_donpepe.xlsx
+2026-10-31 01:09:58.355 [main] INFO  MainApplication - Iniciando Sistema de Gestion Comercial Minimarket Don Pepe E.I.R.L. (Java 17 MVC + DAO + SOLID)
+2026-10-31 01:09:58.785 [main] INFO  SecurityService - Autenticacion exitosa para usuario=admin con rol=ADMINISTRADOR
+2026-10-31 01:09:58.788 [main] INFO  ArqueoCajaService - Turno de Caja #1 abierto por admin con fondo inicial S/. 150.0
+2026-10-31 01:09:58.860 [main] INFO  CreditoVecinalService - Cargo de fiado vecinal autorizado: DNI=****1024 Monto=S/.4.6 NuevoSaldoDeudor=S/.90.1
+2026-10-31 01:09:58.862 [main] INFO  InventarioPepsService - Descuento PEPS ejecutado: Lote=LOT-2026-Y01 Tomado=2 Restante=12
+2026-10-31 01:09:58.864 [main] INFO  InventarioPepsService - Descuento PEPS ejecutado: Lote=LOT-2026-L10 Tomado=3 Restante=45
+2026-10-31 01:09:58.868 [main] INFO  VentaPosService - Venta Transaccional Exitosa: Comprobante=B001-000001 Total=S/.24.6 Efectivo=S/.15.0 YapePlin=S/.5.0 Fiado=S/.4.6 Vuelto=S/.5.0
+2026-10-31 01:09:58.927 [main] INFO  ExcelReportExporterService - Reporte Excel (.xlsx) generado con Apache POI en: /tmp/minimarket-donpepe-system/reportes_excel/Reporte_Consolidado_DonPepe_2026.xlsx
+2026-10-31 01:09:58.928 [main] INFO  MainApplication - Reporte Excel Apache POI disponible en: /tmp/minimarket-donpepe-system/reportes_excel/Reporte_Consolidado_DonPepe_2026.xlsx
